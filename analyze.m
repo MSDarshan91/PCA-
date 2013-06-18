@@ -32,6 +32,6 @@ Ureduce=U(:,1:K);
 Z=X_norm*Ureduce;
 Z=Z*-1;
 X=1:50;
-save z.txt Z % write the results into the File
+save results.txt Z % write the results into the File
 plot(X,Z,'r^')
 print("plot.png");
